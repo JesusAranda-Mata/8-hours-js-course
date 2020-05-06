@@ -60,8 +60,10 @@ function greet(yourName) {
     console.log(result);
 }
 
+
      var name = prompt("What is your name?");
     greet(name);
+
 
 //how do arguments work in function?
 //How do we add 2 number together in a function?
@@ -93,6 +95,32 @@ while (num < 10) {
 for (let num = 0; num <= 10; num += 2) {
     console.log(num)
 }
+
+//Data type
+/*-----
+let yourAge = 30; //number
+let yourName = "Chuy";
+let name = {first: "Jesus", last:"Doe"}; // object
+let truth = fale // boolean
+let groceries = ["apple", "banana", "oranges"];//array
+let random; //undefined
+let nothing = null //value null
+-----*/
+
+//strings in JS (common methods)
+let fruit = "banana, apple, orange";
+let moreFruits = "banana\napple";  //new line funcionality
+console.log(fruit.length);
+console.log(fruit.indexOf("nana")); //console will log where the first later is located b=0 a=1 n=2
+console.log(fruit.slice(2,4));
+console.log(fruit.split(','));//With the coma splite will break the array in to strings with comas in bwtween, without it the split with break the string by later ejam: ['b', 'a', 'n', 'a', 'n', 'a']
+console.log(fruit.split('')); // splits by latter.
+console.log(fruit.replace('ban' , 123));//find and replace. 123ana
+console.log(fruit.toUpperCase(fruit));
+console.log(fruit.toLowerCase(fruit));
+console.log(fruit[2]);
+
+
 
 
 
