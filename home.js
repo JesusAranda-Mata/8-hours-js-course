@@ -55,20 +55,44 @@ For  example:
  Return: "Hello Chuy!"
 */
 
-function greet() {
-    var name = prompt("What is your name?");
-    var result = "hello " + name;
+function greet(yourName) {
+    var result = "hello " + yourName;
     console.log(result);
 }
 
-greet();
+     var name = prompt("What is your name?");
+    greet(name);
+
+//how do arguments work in function?
+//How do we add 2 number together in a function?
+
+function sumNumbers (num1, num2){
+    var result = num1 + num2;
+    console.log(num1 + num2);
+}
+
+sumNumbers(10, 10);
+// all yuo are doing is conbine 2 things together they can be numbers or strings.
 
 
 
+//while loops 
 
+/*
+var num = 0;
 
+while (num < 10) {
+    num += 1; 
+    console.log(num);
+}
 
+*/
 
+//For loops
+
+for (let num = 0; num <= 10; num += 2) {
+    console.log(num)
+}
 
 
 
