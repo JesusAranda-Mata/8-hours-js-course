@@ -99,7 +99,7 @@ for (let num = 0; num <= 10; num += 2) {
 //Data type
 /*-----
 let yourAge = 30; //number
-let yourName = "Chuy";
+let yourName = "Chuy";//string
 let name = {first: "Jesus", last:"Doe"}; // object
 let truth = fale // boolean
 let groceries = ["apple", "banana", "oranges"];//array
@@ -119,6 +119,62 @@ console.log(fruit.replace('ban' , 123));//find and replace. 123ana
 console.log(fruit.toUpperCase(fruit));
 console.log(fruit.toLowerCase(fruit));
 console.log(fruit[2]);
+console.log(fruit.charAt(2));
+
+
+//Array
+
+let fruits = ['banana', 'apple', 'orange'];
+fruits = new Array ('banana', 'apple', 'orange');
+
+console.log(fruits[2]);// The number means the string with in that position in the array. Access value at index 2.
+
+// Changing a string with in an array = Changing value.
+fruits[0] = 'pear';
+console.log(fruits);
+
+for(let i = 0; i < fruits.length; i++) {
+    console.log(fruits[i]);
+}
+
+
+//Array common methods
+console.log('to string', fruits.toString());//will give you the list of the strings with in the array with the beginning "to string".
+console.log(fruits.join(' - '));//will show the strings divided by the symbol in the paranthesys. 
+console.log(fruits.pop(), fruits); // will make the last string in the array to disapear.
+console.log(fruits.push('mango'),fruits);// push allows you to add strings to the array.Appends.
+console.log(fruits[3]);
+fruits[3] = 'new fruit';
+console.log(fruits);// same as push, Appends.
+fruits.shift(); // same as pop but will remove the first string.
+console.log(fruits)
+fruits.unshift('kiwi');//adds one or more strings to an array and return the new array.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
