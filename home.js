@@ -92,8 +92,8 @@ while (num < 10) {
 
 //For loops
 
-for (let num = 0; num <= 10; num += 2) {
-    console.log(num)
+for (let num1 = 0; num1 <= 10; num1 += 2) {
+    console.log(num1)
 }
 
 //Data type
@@ -148,12 +148,31 @@ fruits[3] = 'new fruit';
 console.log(fruits);// same as push, Appends.
 fruits.shift(); // same as pop but will remove the first string.
 console.log(fruits)
-fruits.unshift('kiwi');//adds one or more strings to an array and return the new array.
+fruits.unshift('kiwi');//adds one or more strings to an array and return the new array. Add first element to an array.
+console.log(fruits);
+
+let vegetables = ['asparagus', 'potato', 'broccoli'];
+//adding tow or more arrays.
+let allGroceries = fruits.concat(vegetables);
+console.log(allGroceries);
+//you can slice the new array.
+console.log(allGroceries.slice(0, 4));
+//fliping the order of an array. The last one will be the first one.
+console.log(allGroceries.reverse());
+//arrange an array by alphabet.
+console.log(allGroceries.sort());
 
 
+let someNumbers = [3, 5, 98, 32, 6, 3, 2, 7];
+//arrange number by order.Function.
+console.log(someNumbers.sort(function(a, b){return a-b}));
 
 
-
+let emptyArray = new Array();
+for (let num2 = 0; num2 <= 10; num2++) {
+    emptyArray.push(num2);
+}
+console.log(emptyArray);
 
 
 
