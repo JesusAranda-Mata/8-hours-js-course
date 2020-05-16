@@ -175,10 +175,28 @@ for (let num2 = 0; num2 <= 10; num2++) {
 console.log(emptyArray);
 
 
+//Objects in Javascript aka project orientation.
+//dictionaries in python
+
+let student = {first: 'Chuy',
+               last: 'Mata',
+               age: 30,
+               hieght: 170,
+              studentInfo: function() {
+                  return this.first + "\n" + this.last + "\n" + this.age;
+              }
+              
+              };
 
 
+//console.log(student.first);
+//console.log(student.last);
+student.first = "Jesus"; //This is how you change a value in an object.
+//console.log(student.first);
+student.age++; //Icreases the value by 1.
+//console.log(student.age);
 
-
+console.log(student.studentInfo());
 
 
 
