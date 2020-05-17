@@ -55,15 +55,14 @@ For  example:
  Return: "Hello Chuy!"
 */
 
+/*---  Made in to a note so it would not interfir.
 function greet(yourName) {
     var result = "hello " + yourName;
     console.log(result);
 }
-
-
-     var name = prompt("What is your name?");
+    var name = prompt("What is your name?");
     greet(name);
-
+---*/
 
 //how do arguments work in function?
 //How do we add 2 number together in a function?
@@ -197,6 +196,26 @@ student.age++; //Icreases the value by 1.
 //console.log(student.age);
 
 console.log(student.studentInfo());
+
+
+//Conditionals, control flows (if else)
+// 18-35 is my target demographic.
+/*--- BOLEAN operators:
+    && = and
+    || = or
+---*/
+
+let age = prompt('what is your age?');
+
+if ((age >= 18) && (age <= 35)) {
+    status = 'target demo';  
+    console.log(status);
+} else { 
+    status = 'not my audience';
+    console.log(status);
+}
+    
+
 
 
 
