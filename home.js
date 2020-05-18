@@ -205,7 +205,7 @@ console.log(student.studentInfo());
     || = or
 ---*/
 
-let age = prompt('what is your age?');
+let age = 56;
 
 if ((age >= 18) && (age <= 35)) {
     status = 'target demo';  
@@ -216,13 +216,27 @@ if ((age >= 18) && (age <= 35)) {
 }
     
 
+//Switch statements
+//Differentiate between weekdays vs weekends.
+//day 0 ---> Sunday
+//day 6 ---> saturday ---> 
+//day 4 ---> thursday ---> weekday 
 
+switch (2) {
+    case 0:
+        text = 'weekend';
+        break;
+    case 5:
+        text = 'weekend';
+        break;
+    case 6:
+        text = 'weekend';
+        break;
+    default:
+        text = 'weekday';
+}
 
-
-
-
-
-
+console.log(text);
 
 
 
