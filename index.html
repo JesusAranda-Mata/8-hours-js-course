@@ -7,8 +7,26 @@
 <body>
    <h1 id="someText"></h1>
    
+    <script>
+        let students = 
+        `[
+                {
+        "name": "Chuy",
+        "age": 30,
+        "height": 175
+    },
+     {
+        "name": "Juan",
+        "age": 28,
+        "height": 160
+    }
+
+        ]`
+    
+    console.log(JSON.parse(students)[0].age);    
+    </script>
+  <!-- this is how to use json and how to pull a specific value from an array --> 
    
-   
-    <script src="home.js"></script>
+ <!--  <script src="home.js"></script>  -->
 </body>
 </html>
